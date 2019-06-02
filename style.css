@@ -4,7 +4,8 @@
 }
 
 .header-image-and-text{
-    background: url(images/header.jpg);
+    background: url(images/head.png);
+    background-repeat:repeat-x;
     
 }
 
@@ -1013,10 +1014,9 @@
 .pricing-option-column h1{
     background: #363636;
     color: white;
-    padding: 20px 145px;
+    padding: 20px 0px;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     margin-bottom: 1px;
 }
 .pricing-option-column h2{
@@ -1062,14 +1062,29 @@
 }
 
 
+.most-popular{
+    
+}
+
+
+.most-popular p{
+    font-family: 'Open Sans',cursive;
+    font-size: 14px;
+    background: #FF8A3B;
+    color: white;
+    font-weight: 600;
+    align-self: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
 
 
 
-
-
-
-
-
+.Psecond-column{
+    position: relative;
+    top: -47px;
+}
 
 
 
