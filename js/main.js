@@ -93,8 +93,9 @@ $(document).ready(function(){
         }
     });
     
+    // start transiction tab
     
-    $(".transition-tab .first-column .box").click(function(){
+    $(".transition-tab .first-column a").click(function(){
         $(this).addClass("color-back");
     });
     
